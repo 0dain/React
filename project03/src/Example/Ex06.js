@@ -6,8 +6,8 @@ const Ex06 = () => {
 
     //필수 구현
     //1. input창에 댓글을 입력하고 +버튼을 누르면 댓글 목록에 댓글 추가!
-    
-    let newComm=comm.map(item=><AddComment></AddComment>);
+    // let comm=['테스트']
+    // let newComm=comm.map(item=><AddComment key={item.name} item={item}></AddComment>);
 
     //선택 구현
     //2. 이때 현재 시각과 같이 출력할 것!
