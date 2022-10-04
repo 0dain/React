@@ -57,5 +57,6 @@ export default class Ex07 extends Component {
   componentDidUpdate(){
     //만약에 값이 바뀐다면 실행해야 할 것들을 적어줌
     console.log('update!')
+    
   }
 }
