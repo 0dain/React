@@ -1,13 +1,14 @@
 import React from 'react'
 
-const Product = () => {
-
-    let list=[{title: '', price: '', place:'', photo: ''}]
+const Product = (props) => {
 
 
   return (
     <div>
-        {list}
+        <img src={props.item.photo} width='300px'></img><br/>
+        {props.item.title}<br/>
+        {props.item.price}<br/>
+        {props.item.place}
     </div>
   )
 }

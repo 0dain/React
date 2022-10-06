@@ -1,14 +1,20 @@
 import './App.css';
 
-import{Routes, Route, Link} from 'react-router-dom';
-import Main from './components/Main'
+import{Routes, Route} from 'react-router-dom';
+import Header from './components/Header';
+import Product from './components/Product';
+import Products from './components/Products';
+import Detail from './components/Detail';
 
 function App() {
   return (
     <div>
-      <Main/>
+      <Header/>
       <Routes>
-        <Route></Route>
+        <Route path='/' element={<Products/>}></Route>
+        <Route path='/products' element={<Products/>}></Route>
+        <Route path='/product' element={<Product/>}></Route>
+        <Route path='/detail' element={<Detail/>}></Route>
       </Routes>
       
     </div>
