@@ -2,7 +2,6 @@ import './App.css';
 
 import{Routes, Route} from 'react-router-dom';
 import Header from './components/Header';
-import Product from './components/Product';
 import Products from './components/Products';
 import Detail from './components/Detail';
 
@@ -12,11 +11,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Products/>}></Route>
-        <Route path='/products' element={<Products/>}></Route>
-        <Route path='/product' element={<Product/>}></Route>
-        <Route path='/detail' element={<Detail/>}></Route>
+        <Route path='/detail:num' element={<Detail/>}></Route>
       </Routes>
-      
     </div>
   );
 }
