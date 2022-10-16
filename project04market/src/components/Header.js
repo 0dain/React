@@ -19,6 +19,7 @@ const Header = () => {
     <div>
        {/* <h1 onClick={goToMain}>Campus K Market</h1> */}
        <Link to='./' style={linkStyle}><h1>와르르마켓</h1></Link>
+       <Link to="./join">회원가입</Link>
     </div>
   )
 }
