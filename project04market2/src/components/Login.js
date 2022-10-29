@@ -67,7 +67,6 @@ const Login = () => {
         ref={idRef}
         ></input>
 
-        <button>아이디 중복확인</button>
 
         <br></br>
         PW : <input
@@ -77,7 +76,7 @@ const Login = () => {
 
         <br></br>
 
-        <button onClick={btnCk}>회원가입</button>
+        <button onClick={btnCk}>로그인</button>
 
     </div>
   )
